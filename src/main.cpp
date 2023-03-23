@@ -11,8 +11,6 @@
   copies or substantial portions of the Software.
 *********/
 
-
-
 //Velocidad del sonido cm/uS
 #define SOUND_SPEED 0.034
 
