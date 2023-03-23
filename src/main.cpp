@@ -17,7 +17,6 @@
 long duration;
 float distanceCm;
 
-
 void setup() {
   Serial.begin(115200); // Starts the serial communication
   pinMode(TRIG, OUTPUT); // Sets the TRIG as an Output
@@ -38,7 +37,6 @@ void loop() {
   
   // Calculate the distance
   distanceCm = duration * SOUND_SPEED/2;
-  
   
   // Prints the distance in the Serial Monitor
   Serial.print("Distancia (cm): ");
