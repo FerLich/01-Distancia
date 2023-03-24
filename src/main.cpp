@@ -11,6 +11,8 @@
   copies or substantial portions of the Software.
 *********/
 
+// Parametros definidos en platformio.ini
+
 //Velocidad del sonido cm/uS
 #define SOUND_SPEED 0.034
 
